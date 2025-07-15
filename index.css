@@ -1,0 +1,53 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(38, 37, 37);
+    text-align: center;
+}
+
+h1{
+    color: aquamarine;
+}
+form{
+    background-color: rgb(128, 125, 125);
+    text-align: center;
+    padding: 20px 10px;
+    max-width: 350px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 15px;
+    margin: auto;
+    box-shadow: 5px 5px 15px hsla(0, 0%, 0%, 0.3);
+}
+button{
+    background-color: rgb(175, 191, 222);
+    padding: 5px 15px;
+    border: none;
+    border-radius: 10px 5px 5px 0px;
+    font-weight: 550;
+    cursor: pointer;
+    transition: all 0.5s ease-in-out;
+}
+button:hover{
+    background-color: aquamarine;
+}
+#toCelsius{
+     margin-bottom: 20px;
+}
+#tofahrenhiet{
+    margin-bottom: 10px;
+}
+label{
+    color: rgb(175, 191, 222);
+}
+#textBox{
+    padding: 10px;
+    font-size: 20px;
+    width: 200px;
+    margin-bottom: 15px;
+    text-align: center;
+    border-radius: 5px;
+    border: none;
+}
+#result{
+    font-size: 1.5em;
+    color: aliceblue;
+}
